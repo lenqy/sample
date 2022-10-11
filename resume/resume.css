@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    margin-top: 2mm;
     box-sizing: border-box;
 }
 
@@ -10,8 +11,8 @@ body{
 }
 
 .main-section{
-    width: 210mm;
-    height: 320mm;
+    width: 260mm;
+    height: auto;
     background-color: white;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -29,8 +30,8 @@ body{
     text-align: justify;
 }
 .main-section .left-part{
-    width: 40%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     background-color: #F4F4F4;
     padding: 2.8rem;
 }
@@ -43,7 +44,6 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 1rem solid white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -150,6 +150,35 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
+.trainings{
+    margin-top: 3rem;
+    font-family: 'Lato', sans-serif;
+}
+.trainings .work .job-date{
+    display: flex;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.trainings .work .company-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+
+}
+
+.trainings .work .work-text{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
 .work-container .work:not(:last-child){
     margin-bottom: 1.8rem;
 }
@@ -211,5 +240,5 @@ body{
 }
 
 .text-left{
-    text-align: left;
+    text-align: center;
 }
