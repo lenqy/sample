@@ -52,10 +52,16 @@ body{
     font-size: 1.4rem;
     text-transform: uppercase;
     padding: 0.6rem;
-    background-color: #444440;
-    color: white;
+    /* background-color: #444440; */
+    color: black;
     text-align: center;
-    margin: 1.4rem 0;
+    /* margin-top: -1%; */
+}
+#work{
+    margin-top: -1%;
+}
+#prof{
+    margin-top: -5%;
 }
 
 .contact-container{
@@ -129,11 +135,17 @@ body{
 }
 
 .right-part .banner .firstname{
-    font-size: 4rem;
+    font-size: 2rem;
 }
+hr {
+    height: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:black;
+ }
 
 .right-part .banner .lastname{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
     letter-spacing: 0.5rem;
     margin-top: -1rem;
